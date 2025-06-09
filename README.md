@@ -127,6 +127,6 @@ This project is licensed for academic and educational use only. For other uses, 
 
 ---
 
-## 🙏 Acknowledgements
+## 🙏 Acknowledgement
 
 We thank our guide **Prof. Shree Gowri S S**, co-guide **Mr. Zameer Ahamed M Khan**, and the faculty of **KLS VDIT** for their constant guidance and encouragement.
