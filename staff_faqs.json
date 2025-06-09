@@ -1,0 +1,366 @@
+[
+    {
+        "question": "Hi",
+        "answer": "Hello! How can I assist you today?"
+    },
+    {
+        "question": "hello",
+        "answer": "Hi there! Welcome to KLS VDIT. What can I do for you?"
+    },
+    {
+        "question": "ok",
+        "answer": "Great!"
+    },
+    {
+        "question": "What is the college name?",
+        "answer": "KLS Vishwanathrao Deshpande Institute of Technology, Haliyal."
+    },
+    {
+        "question": "Where is the college located?",
+        "answer": "Udyog Vidya Nagar, Dandeli Rd, Haliyal, Karnataka 581329."
+    },
+    {
+        "question": "what are the college timings?",
+        "answer": "The college operates from 9 AM to 4 PM, Monday to Saturday. Except first and third Saturday. "
+    },
+    {
+        "question": "how can i access library resources?",
+        "answer": "Visit the library or can access through digital library."
+    },
+    {
+        "question": "what is the address of college?",
+        "answer": "Karnatak Law Society's, Vishwanathrao Deshpande Institute of Technology, Udyog Vidya Nagar, Dandeli Rd, Haliyal, Karnataka 581329"
+    },
+    {
+        "question": "who is the principal of the college?",
+        "answer": "The principal of KLS VDIT is Dr.V A Kulkarni."
+    },
+    {
+        "question": "how can i contact the college office?",
+        "answer": "You can reach the office at 082842 20861 or email us at principal@klsvdit.edu.in."
+    },
+    {
+        "question": "what courses are offered?",
+        "answer": "We offer BE programs in Computer Science, Mechanical Engineering, Civil Engineering, Electronics, Electrical and AIML."
+    },
+    {
+        "question": "is hostel facility available?",
+        "answer": "Yes, we have separate hostels for boys and girls with modern amenities."
+    },
+    {
+        "question": "how to pay fees?",
+        "answer": "You can pay fees online through the college portal or directly at the office."
+    },
+    {
+        "question": "when are the exams conducted?",
+        "answer": "Exams are conducted as per the university calendar."
+    },
+    {
+        "question": "how can i get my hall ticket?",
+        "answer": "Hall tickets will be provided by the respective department. Please ensure all dues are cleared."
+    },
+    {
+        "question": "what extracurricular activities are available?",
+        "answer": "We have sports, cultural clubs, coding clubs, robotics, and various other extracurricular activities."
+    },
+    {
+        "question": "how can i join a club?",
+        "answer": "Contact the club coordinator or attend the induction sessions held at the start of each semester."
+    },
+    {
+        "question": "what is the dress code?",
+        "answer": "Students must wear formal attire or decent casual wear."
+    },
+    {
+        "question": "who can help with placement queries?",
+        "answer": "Reach out to the Placement Cell located on the ground floor or email placement@klsvdit.edu.in."
+    },
+    {
+        "question": "what is the attendance requirement?",
+        "answer": "You need a minimum of 85% attendance in all subjects to appear for exams."
+    },
+    {
+        "question": "how can i raise a grievance?",
+        "answer": "The institution has a Grievance cell to address the problems of students.Contact- Dr. Poornima Raikar:9611517345/Dr. Naveenkumar Rudrappa-9481769030."
+    },
+    {
+        "question": "where can i find the timetable?",
+        "answer": "The timetable is displayed on the department notice board and uploaded to the student portal."
+    },
+    {
+        "question": "how can i get a bonafide certificate?",
+        "answer": "Submit a request form at the office. It will be issued within two working days."
+    },
+    {
+        "question": "what events are conducted in the college?",
+        "answer": "We conduct technical fests, cultural events, hackathons, sports meets, and more throughout the year."
+    },
+    {
+        "question": "is there Wi-Fi on campus?",
+        "answer": "Yes, Wi-Fi is available for students and staff. Contact the IT department for login credentials."
+    },
+    {
+        "question": "where can i find the medical facility?",
+        "answer": "The medical facility is located near the hostel block, and first aid kits are available in all departments."
+    },
+    {
+        "question": "how can i participate in sports?",
+        "answer": "Contact the sports coordinator or visit the sports office for registration and practice schedules."
+    },
+    {
+        "question": "what is the procedure for document verification?",
+        "answer": "Submit the required documents to the admin office for verification. Processing takes 3-5 working days."
+    },
+    {
+        "question": "how can i join the alumni association?",
+        "answer": "Register on the alumni portal available on the college website."
+    },
+    {
+        "question": "what are the hostel rules?",
+        "answer": "Hostel rules include maintaining discipline, following curfews, and no unauthorized visitors. Detailed rules are in the hostel handbook."
+    },
+    {
+        "question": "what are the available bus routes?",
+        "answer": "Bus routes cover major areas in and around Dharwad, Hubli, belagavi, Dandeli, Alnavar."
+    },
+    {
+        "question": "how can i access the research lab?",
+        "answer": "Contact your department head to get access permissions for the research lab."
+    },
+    {
+        "question": "can i take books home from the library?",
+        "answer": "Yes, you can borrow books with your ID card. Return them within the due date to avoid fines."
+    },
+    {
+        "question": "what is the procedure to change my branch?",
+        "answer": "Branch change is subject to university guidelines and approval. Contact the academic coordinator for details."
+    },
+    {
+        "question": "how can i participate in technical fests?",
+        "answer": "Register online or through your department. Look out for announcements on the notice board."
+    },
+    {
+        "question": "how to update my contact details in college records?",
+        "answer": "Submit a request with updated information at the admin office."
+    },
+    {
+        "question": "what are the training programs offered by the placement cell?",
+        "answer": "The placement cell offers aptitude training, soft skills workshops, and technical interview preparation sessions."
+    },
+    {
+        "question": "how can i submit assignments?",
+        "answer": "Submit assignments directly to your subject teacher by the due date."
+    },
+    {
+        "question": "what is the grading system?",
+        "answer": "Grades are based on a 10-point CGPA system as per university norms."
+    },
+    {
+        "question": "how can i apply for an internship?",
+        "answer": "Contact training and placement officer."
+    },
+    {
+        "question": "how many students are currently studying in your college?",
+        "answer": "1200+ Students study at KLS VDIT."
+    },
+    {
+        "question": "In which year college was Established?",
+        "answer": "2004."
+    },
+    {
+        "question": "How many faculty members does your college have?",
+        "answer": "100+."
+    },
+    {
+        "question": "how many Non-teaching members does your college have?",
+        "answer": "150+."
+    },
+    {
+        "question": "How many students have graduated from this college so far?",
+        "answer": "7000+."
+    },
+    {
+        "question": "What is the total campus area of the college in acres?",
+        "answer": "26."
+    },
+    {
+        "question": "How many undergraduate courses does the college offer?",
+        "answer": "6."
+    },
+    {
+        "question": "What are the postgraduate courses does the college offer?",
+        "answer": "Industrial Electronics,Thermal Power Engineering."
+    },
+    {
+        "question": "Who is the HOD of Computer Science and Engineering?",
+        "answer": "Dr. Venkatesh Shankar."
+    },
+    {
+        "question": "Who is the HOD of Artificial intelligence and machine learning(AIML)?",
+        "answer": "Dr. Poornima Raikar."
+    },
+    {
+        "question": "Who is the HOD of Electronics and Communication Engineering(ECE)?",
+        "answer": "Dr. Mahendra Dixit."
+    },
+    {
+        "question": "Who is the HOD of Electrical and Electronics Engineering(EEE)?",
+        "answer": "Prof. Rajeshwari N."
+    },
+    {
+        "question": "Who is the HOD of Mechanical Engineering(ME)?",
+        "answer": "Dr.Kallappa S. Pujari."
+    },
+    {
+        "question": "Who is the HOD of Civil Engineering(CV)?",
+        "answer": "Dr. A. C. Bellary."
+    },
+    {
+        "question": "What is the total number of reference books in the library?",
+        "answer": "7000 +."
+    },
+    {
+        "question": "How many volumes are available in the library?",
+        "answer": "over 44000 volumes."
+    },
+    {
+        "question": "How many titles are included in the library's collection?",
+        "answer": "6212 titles."
+    },
+    {
+        "question": "Are there research opportunities at KLS VDIT?",
+        "answer": "Yes, the institute emphasizes research and innovation through its Research & IPR cell and centers of excellence. It also facilitates    participation in industry-sponsored projects\u00e2\u20ac\u2039."
+    },
+    {
+        "question": "What is the placement percentage for the academic year 2021-2022?",
+        "answer": "The placement percentage for 2021-22 was approximately 63%, with 242 out of 384 graduating students placed."
+    },
+    {
+        "question": "How many students were placed in 2020-2021, and what was the median salary offered?",
+        "answer": " In 2020-2021, 182 students out of 349 graduates were placed. The median salary offered was \u00e2\u201a\u00b94.10 LPA."
+    },
+    {
+        "question": "What is the placement percentage for 2023?",
+        "answer": "For 2023, the placement percentage was 37.22%, with 131 out of 353 students placed."
+    },
+    {
+        "question": "What is the median salary for 2023 placements?",
+        "answer": "The median salary for 2023 placements was \u00e2\u201a\u00b93.15 LPA."
+    },
+    {
+        "question": "Which major companies visit KLS VDIT for recruitment?",
+        "answer": " Companies like TCS, Infosys, Cognizant, Wipro, and Mindtree are among the regular recruiters at KLS VDIT"
+    },
+    {
+        "question": "What kind of companies visit the campus for recruitment?",
+        "answer": "Companies from various sectors like IT, Manufacturing, Finance, and Consulting visit the campus for recruitment drives. These include well-known firms such as TCS, Infosys, Wipro, and others."
+    },
+    {
+        "question": "What is the vision of the college?",
+        "answer": "To nurture talent and enrich society through excellence in technical education, research and innovation."
+    },
+    {
+        "question": "What is the mission of the college?",
+        "answer": "1.To augment innovative Pedagogy, kindle quest for interdisciplinary learning & to enhance conceptual understanding.2.To build competence, professional ethics & develop entrepreneurial thinking.3.To strengthen Industry Institute Partnership & explore global collaborations.4.To inculcate culture of socially responsible citizenship.5.To focus on Holistic & Sustainable development."
+    },
+    {
+        "question": "What facilities are available on campus?",
+        "answer": "The campus offers various facilities such as libraries, sports, hostels, transportation, and a variety of centers for technical learning like the NPTEL Learning Center and the K-Tech NAIN Center."
+    },
+    {
+        "question": "Who is the Dean of Research and Development (R&D) at KLS VDIT?",
+        "answer": "Dr. Srinivas Sirdeshpande is the Dean (Research & Development) at KLS VDIT."
+    },
+    {
+        "question": "Who is the Dean Academics at KLS VDIT?",
+        "answer": "Dr. Gururaj Hatti is the Dean Academics at KLS VDIT."
+    },
+    {
+        "question": "Who is the Dean III at KLS VDIT?",
+        "answer": "Prof.Sudhir D. Kulkarni."
+    },
+    {
+        "question": "Who is the Dean Administration at KLS VDIT?",
+        "answer": "Prof. Manjunatha."
+    },
+    {
+        "question": "Who is the IQAC Coordinator?",
+        "answer": " Prof. Varaprasad G."
+    },
+    {
+        "question": "Who is the Director of Training & Placement? ",
+        "answer": "Prof. Rajat Acharya."
+    },
+    {
+        "question": "vision of Computer science and engineering(CSE)?",
+        "answer": "To achieve excellence in technical education, research,  and innovation in computer science and Engineering by emphasizing on global trending technologies."
+    },
+    {
+        "question": "mission of Computer science and engineering(CSE)?",
+        "answer": "1.To train students with conceptual understanding through innovative pedagogies. 2.To imbibe professional, research, and entrepreneurial skills with a commitment to the nation\u00e2\u20ac\u2122s development at large. 3.To strengthen the industry-institute Interaction. 4.To promote life\u00e2\u20ac\u201clong learning with a sense of societal & ethical responsibilities."
+    },
+    {
+        "question": "vision of CSE(AIML)?",
+        "answer": "To lead the way in the creation and application of cutting-edge Computer science and engineering (AIML) technologies, advancing the frontiers of knowledge, and empowering future generations to drive innovation and transformation on a global scale."
+    },
+    {
+        "question": "mission of CSE(AIML)?",
+        "answer": "1.To train students with a strong conceptual understanding using innovative pedagogies, empowering them to excel in the dynamic fields of Artificial Intelligence and Machine Learning. 2.To imbibe professional, research, and entrepreneurial skills with a commitment to the nation\u00e2\u20ac\u2122s development at large. 3.To strengthen the industry-institute Interaction. 4.To promote life\u00e2\u20ac\u201clong learning with a sense of societal & ethical responsibilities."
+    },
+    {
+        "question": "vision of Electronics and Communication Engineering(ECE)?",
+        "answer": "To bring out talented, skilled, and sustainable Electronics and Communication Engineering Graduates through strong domain expertise to serve the Society with greater Professional Ethics."
+    },
+    {
+        "question": "mission of Electronics and Communication Engineering(ECE)?",
+        "answer": " 1.To create and impart an active learning ambience to accomplish a high degree of  Professional competencies. 2.To inculcate innovative research and developmental thinking in effective Teaching and Learning processes for solving Societal challenges. 3.To deliver the needs and requirements of the latest state of art of the Industry through quality multidisciplinary internship and training programs."
+    },
+    {
+        "question": "vision of Electrical and Electronics Engineering(EEE)?",
+        "answer": "To foster the technical skills, research & innovation in the young minds and enabling them by reinforcing the contemporary needs with sustained societal development in the field of Electrical & Electronics Engineering."
+    },
+    {
+        "question": "mission of Electrical and Electronics Engineering(EEE)?",
+        "answer": "M1. To imbibe innovative pedagogy to impart technical knowledge among the students  in the field of  Electrical and Electronics Engineering. M2. To create a passion for learning, promote innovation and entrepreneurship. M3. To develop strong collaboration with premier industries, Government Agencies and professional bodies. M4. To instill moral and ethical values among stake holders."
+    },
+    {
+        "question": "vision of civil engineering(CV)?",
+        "answer": "To excel in imparting civil engineering knowledge of global standards in meeting societal and environmental challenges with professional ethics."
+    },
+    {
+        "question": "mission of civil engineering(CV)?",
+        "answer": "M1. To develop entrepreneurial and skill and team work among students. M2. To inculcate basics of civil engineering knowledge to meet the professional challenges through research and innovation in collaboration with industries. M3. To cultivate qualities of professional ethics and commitment towards welfare of the society and environment."
+    },
+    {
+        "question": "vision of mechanical engineering(ME)?",
+        "answer": "To provide value based education in the field of mechanical engineering for the society where the best of teaching, learning, research and consultancy synergize to face the global market."
+    },
+    {
+        "question": "mission of mechanical engineering(ME)? ",
+        "answer": " 1.To impart innovative knowledge and skills that enhances quality education. 2.To strengthen collaboration with industry, government and R&D institutes. 3.To develop abilities to cater the society needs through sustainable scientific approach."
+    },
+    {
+        "question": "vision of mathematics(maths) department?",
+        "answer": "To empower students with sound knowledge and aims to be a center of excellence in mathematics and is vigorously engaged in both research and teaching."
+    },
+    {
+        "question": "mission of mathematics(maths) department?",
+        "answer": "To impart quality education in the field of Mathematics and to develop mathematical thinking to solve various complex engineering problems."
+    },
+    {
+        "question": "vision of physics department? ",
+        "answer": "To grow profusely as departments of par excellence in the area of scientific education developing human resources of towering talents with sensible temperament."
+    },
+    {
+        "question": "mission of physics department? ",
+        "answer": "To train students to emerge as exceptionally skilled technocrats enthralled with scientific approach, with a sense of social responsibility."
+    },
+    {
+        "question": "vision of chemistry department?",
+        "answer": "To grow profusely as departments of par excellence in the area of scientific education developing human resources of towering talents with sensible temperament."
+    },
+    {
+        "question": "mission of chemistry department?",
+        "answer": " To train students to emerge as exceptionally skilled technocrats enthralled with scientific approach, with a sense of social responsibility."
+    }
+]

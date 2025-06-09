@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suggestions Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 600px;
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        input, textarea, select, button {
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .rating {
+            display: flex;
+            gap: 10px;
+        }
+
+        .success-message {
+            color: green;
+            text-align: center;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Suggestions Form</h2>
+        <form id="suggestionsForm" action="/submit" method="POST">
+            <label for="infrastructure1">How would you rate the overall facilities and infrastructure of the institute?</label>
+            <div class="rating">
+                <label><input type="radio" id="infrastructure1" name="infrastructure" value="1" required> 1</label>
+                <label><input type="radio" id="infrastructure2" name="infrastructure" value="2"> 2</label>
+                <label><input type="radio" id="infrastructure3" name="infrastructure" value="3"> 3</label>
+                <label><input type="radio" id="infrastructure4" name="infrastructure" value="4"> 4</label>
+                <label><input type="radio" id="infrastructure5" name="infrastructure" value="5"> 5</label>
+            </div>
+
+            <label for="challenges">What challenges do you face in communication with the college administration?</label>
+            <textarea id="challenges" name="challenges" rows="4"></textarea>
+
+            <label for="infobot">Was the InfoBot helpful in providing accurate and relevant information?</label>
+            <select id="infobot" name="infobot" required>
+                <option value="">--Select an answer--</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="sometimes">Sometimes</option>
+            </select>
+
+            <label for="suggestion">Any suggestions to improve the institute or InfoBot services?</label>
+            <textarea id="suggestion" name="suggestion" rows="4"></textarea>
+
+            <button type="submit">Submit</button>
+            <!-- Success message placeholder -->
+            <div id="successMessage" class="success-message" style="display: none;"></div>
+        </form>
+    </div>
+
+    <script>
+        const form = document.getElementById("suggestionsForm");
+        const successMessage = document.getElementById("successMessage");
+
+        form.addEventListener("submit", (event) => {
+            event.preventDefault(); // Prevent default form submission
+            const formData = new FormData(form);
+
+            fetch("/submit", {
+                method: "POST",
+                body: formData
+            })
+            .then(response => response.text())
+            .then(data => {
+                // Display the success message
+                successMessage.style.display = "block";
+                successMessage.textContent = "Submitted Successfully!";
+
+                // Clear the form contents
+                form.reset();
+            })
+            .catch(error => {
+                console.error("Error:", error);
+                successMessage.style.display = "block";
+                successMessage.textContent = "Submission failed. Please try again.";
+            });
+        });
+    </script>
+</body>
+</html>

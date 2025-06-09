@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College InfoBot</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      color: #000000;
+    }
+
+    /* Top Section with Background Image */
+    .top-section {
+      background: url('https://klsvdit.edu.in/wp-content/uploads/2023/02/temp-2-1024x332.jpg') top/cover no-repeat;
+      background-size: cover;
+      height: 33vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start; /* Change to flex-start */
+      position: relative;
+    }
+
+    /* Header inside Top Section */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+      width: 90%;
+      max-width: 1000px;
+      margin-top: 180px; /* Increase margin-top to shift lower */
+    }
+
+    .header .logo {
+      max-width: 100px;
+      height: auto;
+    }
+
+    .header .title {
+      flex: 1;
+      text-align: center;
+      padding: 0 10px;
+    }
+
+    .header .title h1 {
+      font-size: 1.8rem;
+      color: #2e7d32;
+      margin: 5px 0;
+    }
+
+    .header .title p {
+      font-size: 1.2rem;
+      color: #4e4e4e;
+    }
+
+    /* Main Content Section */
+    .main-section {
+      background-color: #ffffff;
+      min-height: 67vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 30px 20px;
+    }
+
+    .container {
+      text-align: center;
+      padding: 30px;
+      border-radius: 15px;
+      background-color: rgba(255, 255, 255, 0.95);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+      max-width: 500px;
+      width: 90%;
+      justify-content: flex-start;
+      margin-top: 0px
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #2e7d32;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    p {
+      font-size: 1.4rem;
+      margin-bottom: 20px;
+      color: #4e4e4e;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    button {
+      font-size: 1.2rem;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+      width: 48%;
+      background-color: #4caf50;
+      color: #ffffff;
+    }
+
+    button:hover {
+      background-color: #388e3c;
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Admin Login Icon */
+    .admin-login {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      background-color: #4caf50;
+      color: white;
+      font-size: 1.4rem;
+      padding: 8px 10px;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+    }
+
+    .admin-login:hover {
+      background-color: #388e3c;
+      transform: scale(1.05);
+    }
+
+    .admin-login:hover::after {
+      content: "Admin Login";
+      position: absolute;
+      top: -40px;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 1rem;
+      white-space: nowrap;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 600px) {
+      .header .logo {
+        max-width: 70px;
+      }
+
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+      }
+
+      button {
+        font-size: 1.1rem;
+        padding: 12px 20px;
+      }
+
+      .admin-login {
+        font-size: 1.2rem;
+        padding: 8px;
+        width: 45px;
+        height: 45px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Admin Login Icon -->
+  <div class="admin-login" onclick="window.location.href='/admin_login'">
+    <span>A</span>
+  </div>
+
+  <!-- Top Section with Background Image -->
+  <div class="top-section">
+    <div class="header">
+      <img class="logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhF0Ad49Swvs-nFr_KT-u3L0UPYIYpn4qd3OLjx0HYhg5PA6IEySkByouu1oie6lOJg0ziOdQlBZSNlhMQPiSypg7_q-kqkr7kTR37tPPYfDignx9y66BAJ_m2MsxKLBB7nXQEHyrmzcuT5WojjxxKypI7WL6dOAFTTvjqaqlJ-X9RuRy3UJVFJruH5/s1024/vtu-logo_2.webp" alt="Logo 1">
+      <div class="title">
+        <h1>KLS Vishwanathrao Deshpande Institute of Technology</h1>
+        <p>Transforming Through Technology</p>
+      </div>
+      <img class="logo" src="https://www.comedk.org/uploads/logokls.png" alt="Logo 2">
+    </div>
+  </div>
+
+  <!-- Main Content Section -->
+  <div class="main-section">
+    <div class="container">
+      <h1>Welcome to College InfoBot</h1>
+      <p>Please select your role to proceed:</p>
+      <div class="button-container">
+        <button onclick="window.location.href='/visitor-chat'">Visitor</button>
+        <button onclick="window.location.href='/login'">Staff/Student</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
