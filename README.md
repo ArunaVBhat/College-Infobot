@@ -76,7 +76,8 @@ An **AI-powered chatbot system** designed for college websites to assist student
 
 ## 📷 Screenshots
 
-- 🎯 ![Landing page](image.png)Landing Page, ![Chat with Infobot](image-1.png)Chat UI, ![Admin Dashboard](image-2.png)Admin Dashboard
+- 🎯![image](https://github.com/user-attachments/assets/a30dc7a7-9f5c-4632-b68b-04a0812b3057)
+ Landing Page, ![Chat with Infobot](image-1.png)Chat UI, ![Admin Dashboard](image-2.png)Admin Dashboard
 - 🎤 ![Voice Recognition Integration](image-3.png)Voice Recognition Integration
 - 📑 ![Uploading document](image-4.png)DocBot upload and ![Chat with Docbot](image-5.png)interaction examples
 
